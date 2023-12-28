@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-void main(void)
+int main(void)
 {
   int rows, space, num, count = 0;
 
@@ -38,4 +38,5 @@ void main(void)
   }
 
   getch();
+  return 0;
 }

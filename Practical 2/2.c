@@ -4,12 +4,12 @@
 #include <conio.h>
 #include <math.h>
 
-void main(void)
+int main(void)
 {
   float length, area, perimeter, diagonal;
 
   printf("Enter the length of square (m): ");
-  scanf("%f\n", &length);
+  scanf("%f", &length);
 
   area = length * length;
   perimeter = 4 * length;
@@ -20,4 +20,5 @@ void main(void)
   printf("Diagonal: %0.3f\n", diagonal);
 
   getch();
+  return 0;
 }

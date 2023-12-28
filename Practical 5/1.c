@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void main(void)
+int main(void)
 {
   int counter, f_count;
   float sum = 0, x, power, fact;
@@ -23,4 +23,5 @@ void main(void)
 
   printf("Sum : %f", sum);
   getch();
+  return 0;
 }

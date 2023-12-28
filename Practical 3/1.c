@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-void main(void)
+int main(void)
 {
   float interval, velocity, time, acceleration, distance;
 
@@ -26,4 +26,5 @@ void main(void)
 
   printf("Total distance covered is %0.2f m", distance);
   getch();
+  return 0;
 }

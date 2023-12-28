@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-void main(void)
+int main(void)
 {
   int n, i, j, count;
 
@@ -30,4 +30,5 @@ void main(void)
   }
 
   getch();
+  return 0;
 }

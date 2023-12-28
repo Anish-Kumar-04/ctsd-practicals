@@ -4,7 +4,7 @@
 #include <conio.h>
 #include <math.h>
 
-void main(void)
+int main(void)
 {
   float a, b, c, root1, root2, discriminant;
 
@@ -31,4 +31,5 @@ void main(void)
   }
 
   getch();
+  return 0;
 }
